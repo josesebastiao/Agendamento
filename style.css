@@ -22,10 +22,26 @@ h1{
     padding-top: 5%;
 }
 
-.btn{
 
-    width: 190px;
-    height: 60px;
-    
+
+.btn1{
+
+    width: 15%;
+    height: 80px;
+    margin-left: 43%;
+    margin-top: 8%;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    color: #CBA31D;
+    border: 1px #b2b2b2;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
 
 }
+
+
+
+
+
