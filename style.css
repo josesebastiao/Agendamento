@@ -15,11 +15,25 @@ body{
     background-color: #CBA31D;
 }
 
-h1{
-    text-align: center;
+
+
+.navBar{
+  background-color:#FFFAFA;
+  height: 60px;
+  
+}
+
+
+h2{
+    position: absolute;
+   text-align: left;
     text-transform: uppercase;
     font-weight: 900;
-    padding-top: 5%;
+    font-size: 18px;
+    color:#768CAC;
+    margin-top: 17px;
+    padding-left: 10px;
+    height: 35px;
 }
 
 
@@ -49,8 +63,7 @@ h1{
     margin-top: 8%;
     text-transform: uppercase;
     flex-wrap: wrap;
-    color:;
-    border: 1px #b2b2b2;
+        border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
