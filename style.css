@@ -22,20 +22,21 @@ body{
     background-position:center;
     background-attachment: fixed;
     background-position-y: 40%;
-    
-    
+       
 }
 
 
 
 .navBar{
   background-color:#FFFAFA;
-  height: 50px;
-  
+  height: 55px;
+  opacity: .90;
+  z-index: 1;
+  border: none;
 }
 
 
-h2{
+h1{
     position: absolute;
    text-align: left;
     text-transform: uppercase;
@@ -47,42 +48,51 @@ h2{
     height: 35px;
 }
 
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+    border: solid 1px red;   
+}
 
 
 .btn1{
-
-    width: 15%;
-    height: 80px;
-    margin-left: 43%;
-    margin-top: 8%;
+    
+    width: 15em;
+    height: 5em;
     text-transform: uppercase;
-    flex-wrap: wrap;
     color: #CBA31D;
     border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
-
+    margin: 19em 2em 0em -18em;
 }
 
 .btn2{
 
-    width: 15%;
-    height: 80px;
-    margin-left: 43%;
-    margin-top: 8%;
+    width: 15em;
+    height: 5em;
     text-transform: uppercase;
-    flex-wrap: wrap;
-        border: 1px #b2b2b2;
+    border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
-
+    margin: 19em 2em 0em 0em;
+    
 }
 
 
+.text1{
+   margin-top: 5em ;
+   margin-left: 50em;
+   color: #000000;
 
+
+}
 
 
