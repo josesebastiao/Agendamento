@@ -54,45 +54,49 @@ h1{
     flex-wrap:wrap;
     justify-content:center;
     align-content:center;
-    border: solid 1px red;   
+     
 }
 
 
 .btn1{
     
-    width: 15em;
-    height: 5em;
-    text-transform: uppercase;
-    color: #CBA31D;
+    width: 10em;
+    height: 4em;
+    
+    
     border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
-    margin: 19em 2em 0em -18em;
+    margin: 19em 1em 0em -20em;
+    background-color:#768CAC;;
+    color:#FFFAFA;
 }
 
 .btn2{
 
-    width: 15em;
-    height: 5em;
-    text-transform: uppercase;
+    width: 10em;
+    height: 4em;
     border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
-    margin: 19em 2em 0em 0em;
+    margin: 19em 0em 0em -7em;
+    background-color:#FFFAFA;
+    color:#000000 ;
     
 }
 
 
 .text1{
    margin-top: 5em ;
-   margin-left: 50em;
+   margin-left: 30em;
    color: #000000;
-
-
+   font-size: 19px;
+   font-weight: lighter;
+   
 }
 
 
