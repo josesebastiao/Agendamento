@@ -28,9 +28,7 @@ body{
 
 
 .navBar{
-  background-color:#FFFAFA;
-  height: 55px;
-  opacity: .90;
+   height: 55px;
   z-index: 1;
   border: none;
 }
@@ -40,9 +38,9 @@ h1{
     position: absolute;
    text-align: left;
     text-transform: uppercase;
-    font-weight: 900;
-    font-size: 18px;
-    color:#768CAC;
+    font-weight: bold;
+    font-size: 30px;
+    color:#FFFAFA;
     margin-top: 16px;
     padding-left: 10px;
     height: 35px;
@@ -57,23 +55,21 @@ h1{
      
 }
 
-
+/*Botão Entrar  */
 .btn1{
     
     width: 10em;
     height: 4em;
-    
-    
     border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
     margin: 19em 1em 0em -20em;
-    background-color:#768CAC;;
+    background-color:#000000 ;;
     color:#FFFAFA;
 }
-
+/*Botão cadastro  */
 .btn2{
 
     width: 10em;
@@ -87,6 +83,12 @@ h1{
     background-color:#FFFAFA;
     color:#000000 ;
     
+}
+
+.btn2:hover{
+    background: #4F95DA ;
+    color:#FFFAFA;
+
 }
 
 
