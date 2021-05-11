@@ -117,7 +117,7 @@ h2{
 
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-@media (min-width:320px) and (max-width:480px) {
+@media (min-width:320px) and (max-width:667px) {
     
     .bg{
         position: fixed;
@@ -134,7 +134,7 @@ h2{
      position: fixed;
      border: none;
      background: #FFFAFA;
-     width: 360px;
+     width: 100%;
      }
      
      h1{
@@ -196,3 +196,17 @@ h2{
 
 
 }
+
+/* falta fazer a responsividade para tabletes 
+
+@media (min-width:320px) {  smartphones, portrait iPhone, portrait 480x320 phones (Android)  }
+@media (min-width:480px) { smartphones, Android phones, landscape iPhone  }
+@media (min-width:600px) {  portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) }
+@media (min-width:801px) { tablet, landscape iPad, lo-res laptops ands desktops }
+@media (min-width:1025px) { big landscape tablets, laptops, and desktops }
+@media (min-width:1281px) {  hi-res laptops and desktops }
+
+
+
+
+*/
