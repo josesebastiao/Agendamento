@@ -171,7 +171,7 @@ h2{
         cursor: pointer;
         font-weight: bold;
         font-size: 1rem;
-        margin: 10em 0em 0em 6em;
+        margin: 2em 1em 0em 19em;
         background-color:#000000 ;;
         color:#FFFAFA;
     }
@@ -186,9 +186,9 @@ h2{
         cursor: pointer;
         font-weight: bold;
         font-size: 1rem;
-        margin: 6em 0em 0em 30em;
+        margin: 2rem 22rem 0rem 40rem;
         background-color:#FFFAFA;
-        color:#000000 ;
+        color:#000000;
         outline:none;
         
     }
