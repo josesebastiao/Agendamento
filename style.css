@@ -25,8 +25,6 @@ body{
        
 }
 
-
-
 .navBar{
    height: 55px;
   z-index: 1;
@@ -45,6 +43,13 @@ h1{
     padding-left: 10px;
     height: 35px;
 }
+
+h2{
+    font-weight: 100;
+    font-size: 30px;
+    color: #000000;
+}
+
 
 .container{
     display:flex;
@@ -69,6 +74,7 @@ h1{
     background-color:#000000 ;;
     color:#FFFAFA;
 }
+
 /*Botão cadastro  */
 .btn2{
 
@@ -92,11 +98,6 @@ h1{
 
 }
 
-h2{
-    font-weight: 100;
-    font-size: 30px;
-    color: #000000;
-}
 
 .text1{
    margin-top: 5em ;
@@ -114,3 +115,84 @@ h2{
     
 }
 
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+@media (min-width:320px) and (max-width:480px) {
+    
+    .bg{
+        position: fixed;
+        background-image: url(imagens/background.jpg);
+        background-repeat: no-repeat;
+        height: 2px;;
+        width: 1vh;
+        background-position:center;
+        background-attachment: fixed;      
+    }
+
+    .navBar{
+    height: 50px;
+     position: fixed;
+     border: none;
+     background: #FFFAFA;
+     width: 360px;
+     }
+     
+     h1{
+        position: absolute;
+       text-align: left;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 2px;
+        color:#000000;
+        margin-top: 16px;
+        padding-left: 10px;
+        margin-left: 1rem;
+        height: 35px;
+    }
+
+    h2{
+        
+        width: 200px;
+        text-align: center;
+        margin: 5em 4em 5em 6em;
+        font-weight:bold;
+        font-size: 20px;
+        color: #000000;
+        
+    }
+
+    .btn1{
+    
+        width: 8em;
+        height: 3em;
+        border: 1px #b2b2b2;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 10em 0em 0em 6em;
+        background-color:#000000 ;;
+        color:#FFFAFA;
+    }
+    
+    /*Botão cadastro  */
+    .btn2{
+    
+        width: 8em;
+        height: 3em;
+        border: 1px #b2b2b2;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 6em 0em 0em 30em;
+        background-color:#FFFAFA;
+        color:#000000 ;
+        outline:none;
+        
+    }
+    
+
+
+}
