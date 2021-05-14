@@ -83,3 +83,20 @@ h2{
     outline:none;
     
 }
+
+.btn2:hover{
+
+    background: #4F95DA ;
+    color:#FFFAFA;
+
+}
+
+.rodape{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+}
