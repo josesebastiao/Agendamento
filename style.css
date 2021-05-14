@@ -1,212 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;800&display=swap');
-
-body, html{
-    height: 100%;
+* {
     margin: 0;
     padding: 0;
-    border: 0;
-    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+
+    font-family:'Nunito Sans', sans-serif;
+   
 }
 
 body{
-    font-family:'Nunito Sans', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
     color: #fffafa;
-    background-color:#BBC4D4;
+    overflow: hidden;
 }
 
-.bg{
 
+.bg{
     background-image: url(imagens/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
-    background-position-y: 40%;
-       
+    background-color:#BBC4D4;
 }
 
-.navBar{
-   height: 55px;
-  z-index: 1;
-  border: none;
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
-
-h1{
-    position: absolute;
-   text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 30px;
-    color:#FFFAFA;
-    margin-top: 16px;
-    padding-left: 10px;
-    height: 35px;
-}
-
-h2{
-    font-weight: 100;
-    font-size: 30px;
-    color: #000000;
-}
 
 
 .container{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-content:center;
-     
+    height: 100vh;
+    border: solid 1px red;
+    font-size: 27px;
+    
 }
 
-/*Botão Entrar  */
+h2{
+    max-width: 100%;
+    font-weight: 100;
+    font-size: 1em;
+    color: #000000;
+    margin-top: 7vw;
+    margin-left: 50vw;
+}
+
 .btn1{
-    
-    width: 10em;
+    max-width: 100%;
+    width: 9em;
     height: 4em;
     border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 1rem;
-    margin: 19em 1em 0em -20em;
+    font-weight: bold;  
     background-color:#000000 ;;
     color:#FFFAFA;
+
 }
 
-/*Botão cadastro  */
 .btn2{
 
-    width: 10em;
+    max-width: 100%;
+    width: 9em;
     height: 4em;
     border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1rem;
-    margin: 19em 0em 0em -7em;
     background-color:#FFFAFA;
     color:#000000 ;
     outline:none;
     
 }
-
-.btn2:hover{
-    background: #4F95DA ;
-    color:#FFFAFA;
-
-}
-
-
-.text1{
-   margin-top: 5em ;
-   margin-left: 30em;
-  
-}
-
-.rodape{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    margin: 18rem 0rem;
-    
-}
-
-
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-@media (min-width:320px) and (max-width:667px) {
-    
-    .bg{
-        position: fixed;
-        background-image: url(imagens/background.jpg);
-        background-repeat: no-repeat;
-        height: 2px;;
-        width: 1vh;
-        background-position:center;
-        background-attachment: fixed;      
-    }
-
-    .navBar{
-    height: 50px;
-     position: fixed;
-     border: none;
-     background: #FFFAFA;
-     width: 100%;
-     }
-     
-     h1{
-        position: absolute;
-       text-align: left;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 14px;
-        padding: 2px;
-        color:#000000;
-        margin-top: 16px;
-        padding-left: 10px;
-        margin-left: 1rem;
-        height: 35px;
-    }
-
-    h2{
-        
-        width: 200px;
-        text-align: center;
-        margin: 5em 4em 5em 6em;
-        font-weight:bold;
-        font-size: 20px;
-        color: #000000;
-        
-    }
-
-    .btn1{
-    
-        width: 8em;
-        height: 3em;
-        border: 1px #b2b2b2;
-        border-radius: 6px;
-        cursor: pointer;
-        font-weight: bold;
-        font-size: 1rem;
-        margin: 2em 1em 0em 19em;
-        background-color:#000000 ;;
-        color:#FFFAFA;
-    }
-    
-    /*Botão cadastro  */
-    .btn2{
-    
-        width: 8em;
-        height: 3em;
-        border: 1px #b2b2b2;
-        border-radius: 6px;
-        cursor: pointer;
-        font-weight: bold;
-        font-size: 1rem;
-        margin: 2rem 22rem 0rem 40rem;
-        background-color:#FFFAFA;
-        color:#000000;
-        outline:none;
-        
-    }
-    
-
-
-}
-
-/* falta fazer a responsividade para tabletes 
-
-@media (min-width:320px) {  smartphones, portrait iPhone, portrait 480x320 phones (Android)  }
-@media (min-width:480px) { smartphones, Android phones, landscape iPhone  }
-@media (min-width:600px) {  portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) }
-@media (min-width:801px) { tablet, landscape iPad, lo-res laptops ands desktops }
-@media (min-width:1025px) { big landscape tablets, laptops, and desktops }
-@media (min-width:1281px) {  hi-res laptops and desktops }
-
-
-
-
-*/
