@@ -47,13 +47,14 @@ main{
     
 }
 
-h2{
+.text1{
     max-width: 100%;
     font-weight: 100;
     font-size: 1em;
     color: #000000;
     margin-top: 7vw;
-    margin-left: 50vw;
+    margin-left: 30vw;
+    text-align: center;
 }
 /* botão entrar */
 .btn1{
@@ -106,10 +107,18 @@ h2{
     
 }
 
+/* Celular Android e Iphone */
+
 @media (max-width: 768px) {
 
     .btn1{
-        margin: 300px 9px 10px 5px;
+        margin: 30vh 5vh 5vh 1vh;
+    }
+
+    .text1{
+        margin:14vh 2vh 4vh 1vh;
+         width: 20rem;
     }
 
  }
+
