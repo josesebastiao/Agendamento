@@ -66,6 +66,8 @@ h2{
     font-weight: bold;  
     background-color:#000000 ;;
     color:#FFFAFA;
+    margin-top: 7vw;
+    margin-left: 50vw;
 
 }
 
@@ -81,6 +83,8 @@ h2{
     background-color:#FFFAFA;
     color:#000000 ;
     outline:none;
+    margin-top: 4vw;
+    margin-left: 4vw;
     
 }
 
