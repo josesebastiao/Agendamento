@@ -55,7 +55,7 @@ h2{
     margin-top: 7vw;
     margin-left: 50vw;
 }
-
+/* botão entrar */
 .btn1{
     max-width: 100%;
     width: 9em;
@@ -71,6 +71,7 @@ h2{
 
 }
 
+/* botão cadastrar*/
 .btn2{
 
     max-width: 100%;
@@ -104,3 +105,11 @@ h2{
     align-content: flex-start;
     
 }
+
+@media (max-width: 768px) {
+
+    .btn1{
+        margin: 300px 9px 10px 5px;
+    }
+
+ }
