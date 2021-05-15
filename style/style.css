@@ -97,14 +97,10 @@ main{
     color:#FFFAFA;
 
 }
-
+/* Footer */
 .rodape{
 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
+    
     
 }
 
