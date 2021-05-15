@@ -42,14 +42,13 @@ main{
 
 .container{
     height: 100vh;
-    border: solid 1px red;
     font-size: 27px;
     
 }
-
+/* texto principal */
 .text1{
     max-width: 100%;
-    font-weight: 100;
+  font-weight:100;
     font-size: 1em;
     color: #000000;
     margin-top: 7vw;
