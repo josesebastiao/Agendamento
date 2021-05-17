@@ -24,24 +24,43 @@ body{
   background-color:var(--bg-color);
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
 .container{
-    border: solid 1px red;
-    width: 70vw;
-    height: 40vh;
+    border: solid 1px none;
+    border-radius: 7px;
+    width: 80%;
+    height: 60%;
+    max-height: 30em;
+    max-width: 25em;
+    min-width: 150px;
+    background-color: var(--primary-color);
+    z-index: 1;    
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 15% ;
+    font-weight: 200;
+    
 }
 
 
 
 
-
-
-
-
-/* Footer */
 .rodape, h3{
     color: #FFFAFA;
     font-weight: 100;
     font-size: 16px;
     margin: -30px 20px;
     width: 40vw; 
-} 
+}  
