@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;800&display=swap');
 @import './responsivity.css';
 
+:root{
+
+    --primary-color:#fffafa;
+    --bg-color:#BBC4D4;
+    --text-color:#000000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +26,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction:column;
-    color: #fffafa;
+    color: var(--primary-color);
     overflow: hidden;
 }
 
@@ -30,7 +37,7 @@ body{
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
-    background-color:#BBC4D4;
+    background-color:var(--bg-color);
 }
 
 main{
@@ -39,8 +46,6 @@ main{
     justify-content: center;
     align-content: center;
 }
-
-
 
 .container{
     height: 100vh;
@@ -52,7 +57,7 @@ main{
     max-width: 100%;
   font-weight:100;
     font-size: 1em;
-    color: #000000;
+    color:var(--text-color) ;
     margin-top: 7vw;
     margin-left: 30vw;
     text-align: center;
@@ -75,7 +80,6 @@ main{
 
 /* botão cadastrar*/
 .btn2{
-
     max-width: 100%;
     width: 140px;
     height: 60px;
@@ -88,14 +92,11 @@ main{
     outline:none;
     margin-top: 4vw;
     margin-left: 4vw;
-    
 }
 
 .btn2:hover{
-
     background: #4F95DA ;
     color:#FFFAFA;
-
 }
 /* Footer */
 .rodape, h3{
@@ -107,8 +108,6 @@ main{
 }
 
 /* Celulares android e Iphone*/
-
-
 @media (max-width: 768px) {
 
     .btn1, .btn2{
@@ -134,7 +133,6 @@ main{
         height: 90px;
         font-size: 24px;
     }
-
     .text1{
         margin:15vh 2vh 4vh 14vh;
          width: 23rem;
