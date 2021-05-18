@@ -57,7 +57,7 @@ h2{
     
 }
 
-
+/* Criação de Inputs */
 input{
     display: block;
     width: 150vw;
@@ -71,15 +71,22 @@ input{
     border:solid 1px rgba(189, 182, 182, 0.719);
 }
 
-input.email{
+.email{
     background-image: url(../imagens/icone-usuario.png);
 }
 
-input.senha{
+.senha{
     background-image: url(../imagens/icone-cadeado.png);
 }
  
-    
+input.submit{
+    color: #FFF;
+    background-color: #829cca ;
+    padding: 5px 20px;
+    font-weight: 700;
+    height: 45px;
+    width: 90%;
+}
 
 
 
