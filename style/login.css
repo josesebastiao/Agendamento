@@ -4,7 +4,8 @@
 :root{
 
     --primary-color:#FFFFFF;
-    --bg-color:#BBC4D4;
+    --bg-color:background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     --text-color:#000000;
 }
 
@@ -53,7 +54,7 @@ h2{
     margin-top: 50px;
     margin-bottom: 30px;
     font-weight: 200;
-    color: #829cca;
+    color: #090979;
     
 }
 
@@ -81,11 +82,12 @@ input{
  
 input.submit{
     color: #FFF;
-    background-color: #829cca ;
     padding: 5px 20px;
-    font-weight: 700;
+    font-weight: 800;
     height: 45px;
     width: 90%;
+    background:#090979;
+   
 }
 
 
