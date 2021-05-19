@@ -2,10 +2,7 @@
 @import './responsivity.css';
 
 :root{
-
-    --primary-color:#FFFFFF;
-    --bg-color:background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    --primary-color:#FFFFFF;  
     --text-color:#000000;
 }
 
@@ -17,12 +14,10 @@
 
 
 html{
-
     font-family:'Nunito Sans', sans-serif;
-   
 }
 body{
-  background-color:var(--bg-color);
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 }
 
 main{
@@ -32,7 +27,6 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 
 .container{
@@ -47,7 +41,6 @@ main{
     
     z-index: 1;    
 }
-
 
 h2{
     text-align: center;
@@ -81,6 +74,7 @@ input{
 }
  
 input.submit{
+
     color: #FFF;
     padding: 5px 20px;
     font-weight: 800;
@@ -90,12 +84,15 @@ input.submit{
    
 }
 
+.redefinir{
+    font-size: 0.7rem;
+    color:#090979;
+    margin:50px;
+    text-decoration: none;
 
-
-
-
-
+}
 .rodape, h3{
+
     color: #FFFAFA;
     font-weight: 100;
     font-size: 16px;

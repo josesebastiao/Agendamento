@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;800&display=swap');
-@import './responsivity.css';
+
 
 :root{
-
     --primary-color:#fffafa;
     --bg-color:#BBC4D4;
     --text-color:#000000;
@@ -70,8 +69,9 @@ main{
     border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
-    font-weight: bold;  
-    background-color:#000000 ;;
+    font-weight: bold;
+    font-size: 14px;  
+    background-color:#4F95DA ;
     color:#FFFAFA;
     margin-top: 7vw;
     margin-left: 50vw;
@@ -87,6 +87,7 @@ main{
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
+    font-size: 14px;
     background-color:#FFFAFA;
     color:#000000 ;
     outline:none;
@@ -95,7 +96,7 @@ main{
 }
 
 .btn2:hover{
-    background: #4F95DA ;
+    background: #000000;
     color:#FFFAFA;
 }
 /* Footer */
