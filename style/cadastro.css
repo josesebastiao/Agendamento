@@ -17,24 +17,16 @@ html{
     font-family:'Nunito Sans', sans-serif;
 }
 
-.form{
-     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column; 
 
-    
-} 
+
 .container{
     height: 500px;
     width: 60vw;
     max-width: 30%;
-
     margin: 0 auto;
     padding: 2em;
     border: 1px solid #ccc;
-    
+    border-radius: 4px;
 }
 
 input{
@@ -49,9 +41,25 @@ input{
 legend{
     margin-top: 20px;
     text-align: center;
+    
+}
+
+.btn1{
+    max-width: 80%;
+    width: 110px;
+    height: 60px;
+    border: 1px #b2b2b2;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;  
+    background-color:#4F95DA ;
+    color:#FFFAFA;
+    margin-top: 25px; ;
 }
 
 .rodape, h3{
+    height: 20px;
 
     color: #FFFAFA;
     font-weight: 100;
