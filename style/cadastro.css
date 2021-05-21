@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;800&display=swap');
-@import './responsivity.css';
-
 :root{
     --primary-color:#FFFFFF;  
     --text-color:#000000;
@@ -17,13 +15,27 @@ html{
     font-family:'Nunito Sans', sans-serif;
 }
 
+header{
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 40px;
 
+    border: solid 1px none;
+    background:#4F95DA;
+}
+
+body{
+    height: 50rem;
+    border:solid red;
+}
 
 .container{
-    height: 500px;
-    width: 60vw;
+    width: 25em;
+    height: 50%;
+   
     max-width: 30%;
     margin: 0 auto;
+
     padding: 2em;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -33,37 +45,39 @@ input{
     width: 250px;
     height: 31px;
     min-width: 100%;
-
     margin: 5px;
-
 }
 
 legend{
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .btn1{
     max-width: 80%;
     width: 110px;
     height: 60px;
+    margin-top: 25px;
+
     border: 1px #b2b2b2;
     border-radius: 6px;
     cursor: pointer;
+
     font-weight: bold;
     font-size: 14px;  
+
     background-color:#4F95DA ;
     color:#FFFAFA;
-    margin-top: 25px; ;
+}
+.btn1:hover{
+    background: #090979 ;
 }
 
-.rodape, h3{
-    height: 20px;
-
-    color: #FFFAFA;
-    font-weight: 100;
-    font-size: 16px;
-    margin: -30px 20px;
-    width: 40vw; 
-}  
+footer{
+    width: 100%;
+    height: 5vh;
+    margin-top: 1;
+    border: solid 1px red;
+    border: solid 1px none;
+    background:#4F95DA;
+}
