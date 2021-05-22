@@ -8,11 +8,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
 html{
     font-family:'Nunito Sans', sans-serif;
+    height: 100%;
+   
 }
 
 header{
@@ -25,13 +28,12 @@ header{
 }
 
 body{
-    height: 50rem;
-    border:solid red;
+    height:100%;    
 }
 
 .container{
     width: 25em;
-    height: 50%;
+    height: 100%;
    
     max-width: 30%;
     margin: 0 auto;
@@ -39,6 +41,8 @@ body{
     padding: 2em;
     border: 1px solid #ccc;
     border-radius: 4px;
+
+    
 }
 
 input{
@@ -74,10 +78,14 @@ legend{
 }
 
 footer{
-    width: 100%;
+    width: 30vw;
+    min-width: 100%;
+    max-width: 100%;
+
     height: 5vh;
-    margin-top: 1;
-    border: solid 1px red;
+    max-height: 30em;
+    
+    margin: 154px 0px 0px 0px;
     border: solid 1px none;
     background:#4F95DA;
 }
