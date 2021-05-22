@@ -55,6 +55,8 @@ input{
 legend{
     margin-top: 20px;
     text-align: center;  
+    font-weight: bold;
+    
 }
 
 .btn1{
@@ -85,6 +87,8 @@ footer{
     height: 5vh;
     max-height: 30em;
     
+    color:#FFFFFF;
+    text-align: center;
     margin: 154px 0px 0px 0px;
     border: solid 1px none;
     background:#4F95DA;
