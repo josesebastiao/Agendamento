@@ -37,6 +37,8 @@ body{
     align-content: center;
     flex-direction: column;
     flex-wrap:wrap;
+
+   
     
 }
 
@@ -71,11 +73,11 @@ footer{
     max-width: 100%;
 
     height: 5vh;
-    max-height: 30em;
+    max-height: 20em;
     
     color:#FFFFFF;
     text-align: center;
-    margin: 154px 0px 0px 0px;
+    margin: 335px 0px 0px 0px;
     border: solid 1px none;
     background:#92A2B9;
 }
