@@ -22,15 +22,26 @@
                     <div>
                         <div>
                             <label>Selecione um Serviço</label>
-                            <input type="text" name="nome" id="nome" >
+                            <select name="cars" id="cars">
+                                <option value="volvo">Bilhete de Identidade</option>
+                                <option value="saab">Atestado de Residência</option>
+                                <option value="opel">Certidão nascimento e Óbito</option>
+                                <option value="audi">Audi</option>
+                              </select>
+                              <br><br>
                         </div>
                         <div>
                             <label>Horários Disponíveis</label>
-                            <input type="text" name="nome" id="nome" >
+                            <input type="time" name="horario" id="horario" min="10:00" max="18:00" required>
+
                          </div>
                          <div>
                             <label>Profissional</label>
                             <input type="text" name="nome" id="nome" >
+                         </div>
+
+                         <div>
+                            <button class="btn1">AGENDAR</button>
                          </div>
 
                     </div>
